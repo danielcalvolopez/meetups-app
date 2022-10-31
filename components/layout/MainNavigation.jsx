@@ -4,7 +4,7 @@ import Link from "next/link";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
+      <div className={classes.logo}>My Meetups</div>
       <nav>
         <ul>
           <li>
