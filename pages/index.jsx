@@ -3,7 +3,7 @@ import MeetupList from "../components/meetups/MeetupList";
 
 import Head from "next/head";
 
-const HomePage = (props) => {
+const HomePage = ({ meetups }) => {
   return (
     <>
       <Head>
@@ -13,7 +13,7 @@ const HomePage = (props) => {
           content="Browse a huge list of highly active meetups!"
         />
       </Head>
-      <MeetupList meetups={props.meetups} />
+      <MeetupList meetups={meetups} />
     </>
   );
 };
